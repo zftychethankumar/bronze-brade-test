@@ -1,0 +1,237 @@
+.l{
+    background-color: green;
+    height: 84vh;
+    padding: 50px;
+}
+section>h1{
+    align-items: center;
+    color: aqua;
+    padding: 25px;
+    background-color: aquamarine;
+}
+.first1{
+    color: brown;
+    background-color: aliceblue;
+    font-size: 1.2rem;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+.second2{
+    color: brown;
+    background-color: aliceblue;
+    font-size: 1.2rem;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+
+/*part2*/
+
+.banner{
+    border: 2px solid rgba(0, 0, 0, 0.636);
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    margin-left:35% ;
+    transform: translateY(40%);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.562);
+  padding: 10px 20px 10PX;
+  color: white;
+  padding-top: 40px solid green;
+  padding-left: 40px solid orange;
+}
+.Member{
+    background-color: blue;
+    height: 700px;
+}
+.Member:hover{
+    cursor: pointer;
+    transition: 2 ease-in-out;
+    
+}
+.banner>h1{
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 3px 7px solid grey;
+}
+.banner>p{
+justify-content: center;
+}
+.banner:hover{
+    color: blueviolet;
+    background-color: aqua;
+    transition: 2 ease-in-out;
+}
+/*p3.html*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header>nav{
+    background-color: orange;
+}
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 25px;
+}
+header>nav>ul>li:hover{
+    background-color: brown;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: bisque;
+}
+header>nav>ul>li:hover a{
+    color: blue;
+}
+header>nav>img{
+    height: 64px;
+}
+
+/*part1*/
+.body{
+    background-color: brown;
+    min-height: 290px;
+}
+.New{
+    color: orange;
+    padding: 3%;
+}
+.card-people{
+    display: flex;
+    padding: 3%;
+    align-items: center;
+}
+.img-right{
+    display: flex;
+    gap: 20px;
+}
+.img-right .img-girl{
+    flex: 1;
+}
+.img-girl img{
+width: 100%;
+}
+.img-girl{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.img-girl-text{
+    position: absolute;
+    bottom: 0;
+    padding: 70px;
+    min-height: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+}
+.img-girl-text h3{
+    color: rgba(205, 228, 228, 0.389);
+}
+.img-girl-text h5{
+    color: rgba(176, 134, 215, 0.516);
+}
+.orange-text{
+    color: aquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.New h1{
+position: relative;
+}
+.New h1::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: skyblue;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+/*part2*/
+.body .banner3{
+background-color: rgba(157, 209, 209, 0.47);
+min-height: 150px;
+padding: 3%;
+text-align: center;
+}
+.body .banner3>button{
+    padding: 10px 20px 10px;
+    background-color: aqua;
+    color: blue;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: 1s ease-in-out;
+}
+.body .banner3>button:hover{
+    color: blueviolet;
+    background-color: brown;
+    border-radius: 2px solid orange;
+  
+}
+/*part3*/
+.pricing-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.pricing-card{
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 250px;
+    position: relative;
+    min-height: 300px;
+    border-radius: 10px;
+   
+}
+.pricing-card ul{
+    list-style-type: none;
+}
+.pricing-card ul li{
+    margin-bottom: 20px;
+}
+.pricing-card h1{
+    font-size: 2.5rem;
+    color: rgb(5, 135, 135);
+}
+.register{
+    border: none;
+    padding: 15px;
+    width: fit-content;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+
+.pricing{
+    background-color: blueviolet;
+    min-height: 80vh;
+}
+
+.pricing>h1{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+/*p5.html*/
+
+    
+
+
